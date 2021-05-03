@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Tone JS Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tone.js Test</h1>
+      <button id="mic-button">record</button>
+
+      <div>
+        <audio id="audioPlay" controls></audio>
+      </div>
+
+      <button id="fx">generate fx chain</button>
+      <!-- 
+      <div class="slider-container">
+        <p>volume</p>
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="50"
+          class="slider"
+          id="myRange"
+        />
+      </div> -->
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/tone@14.7.77/build/Tone.min.js"></script>
+  <script src="./index.js"></script>
+</html>
